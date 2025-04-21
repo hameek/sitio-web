@@ -1,0 +1,36 @@
+.contenedor{
+    width: 400px;
+    background: rgb(245, 242, 242);
+    padding: 30px; margin: auto;
+    margin-top:  100px;
+    border-radius: 15px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color:rgb(9, 29, 250);
+    box-shadow:  7px 13px 37px #000;
+}
+footer{
+    text-align: center;
+    border: 100px;
+}
+
+    /* Pie de página */
+    footer {
+        background-color:aqua;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        color: #57a0d4;
+    }
+    

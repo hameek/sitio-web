@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios de Moto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: white;
+            color: black;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: aqua;
+            overflow: hidden;
+            border-radius: 25px;
+            text-align: center;
+           
+            
+        }
+        nav a {
+            color: blue;
+            padding: 14px 20px;
+            text-decoration: none;
+            float: left;
+        }
+        nav a:hover {
+            background-color:white;
+            color: black;
+            border-radius: 25px;
+        }
+        section {
+            padding: 20px;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .service-item {
+            background-color: white;
+            border: 1px solid white;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow:  7px 13px 37px #000;
+        }
+        .service-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        footer {
+            background-color:aqua;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+  
+    
+    <nav>
+        <a href="index.html">Inicio</a>
+       
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+        
+    </nav>
+    <header>
+        <h1>Servicios de Moto</h1>
+        <p>Reparación, mantenimiento y más para tu moto</p>
+    </header>
+    
+    <section>
+        <h2>Servicios que ofrecemos</h2>
+        <div class="services">
+            <div class="service-item">
+                <img src="mantenimiento general.jpg" alt="Mantenimiento de motos">
+                <h3>Mantenimiento General</h3>
+                <p>Realizamos un mantenimiento completo para asegurar el buen funcionamiento de tu moto.</p>
+            </div>
+            <div class="service-item">
+                <img src="reparacion.jpg" alt="Reparación de motos">
+                <h3>Reparación de Moto</h3>
+                <p>Si tu moto necesita reparación, te ayudamos con los arreglos más complejos.</p>
+            </div>
+            <div class="service-item">
+                <img src="cambio de aceite.jpeg" alt="Cambio de aceite">
+                <h3>Cambio de Aceite</h3>
+                <p>Realizamos el cambio de aceite y filtros para mantener tu moto en perfecto estado.</p>
+            </div>
+            <div class="service-item">
+                <img src="cambio de piezas de moto.jpeg" alt="Instalación de piezas">
+                <h3>Instalación de Piezas</h3>
+                <p>Instalamos piezas originales y de alta calidad para tu moto.</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Servicios de Moto. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

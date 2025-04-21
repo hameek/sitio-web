@@ -1,0 +1,112 @@
+
+    /* Barra de navegación */
+    nav {
+        background-color:aqua;
+        color: white;
+        padding: 12px 0;
+        text-align: center;
+        border-radius: 25px;
+    }
+
+    nav a {
+        color:black blac;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin: 0 10px;
+        font-size: 18px;
+    }
+
+    nav a:hover {
+        background-color: white;
+        border-radius: 5px;
+        border-radius: 25px;
+    }
+     h1 {
+        text-align:center;
+     }
+
+
+    /* Carrusel de imágenes */
+    .carrusel {
+        width: 180px;
+        max-width: 50%;
+        overflow: -moz-hidden-unscrollable;
+        margin: 20px 0;
+        border-radius: 12px;
+     
+    }
+    
+
+
+    .contenedor {
+        display: flex;
+        animation: deslizar 20s infinite linear;
+    }
+
+    .carrusel img {
+        width: 260px;
+        height: 150px;
+        margin-left: 25px;
+        border-radius: 10px;
+      
+
+    }
+   
+    
+
+    @keyframes deslizar {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-100%); }
+        50% { transform: translateX(-200%); }
+        75% { transform: translateX(-300%); }
+        100% { transform: translateX(-400%); }
+    }
+
+    /* Sección de contenido */
+    .contenido {
+        display: flex;
+        justify-content: space-between;
+        margin: 40px auto;
+        max-width: 1000px;
+        padding: 20px;
+    }
+
+    .contenido div {
+        background-color: white;
+        padding: 20px;
+        width: 48%;
+        margin-left: 10px;
+        box-shadow:  7px 13px 37px #000;
+        border-radius: 15px;
+    }
+
+    .contenido div h2 {
+        margin-bottom: 10px;
+    }
+
+    .contenido div p {
+        color:black;
+        line-height: 1.6;
+    }
+
+    /* Pie de página */
+    footer {
+        background-color:aqua;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        color: #57a0d4;
+    }
+    
+    
